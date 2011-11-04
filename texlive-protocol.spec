@@ -51,6 +51,7 @@ code, and would welcome support in the work.
 #- source
 %doc %{_texmfdistdir}/source/latex/protocol/protocol.dtx
 %doc %{_texmfdistdir}/source/latex/protocol/protocol.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +62,5 @@ code, and would welcome support in the work.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
