@@ -6,7 +6,7 @@
 # catalog-version 1.12
 Name:		texlive-protocol
 Version:	1.12
-Release:	1
+Release:	2
 Summary:	A class for typesetting minutes of meetings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/protocol
