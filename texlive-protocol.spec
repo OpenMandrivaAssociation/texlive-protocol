@@ -1,13 +1,13 @@
-# revision 24281
+# revision 25562
 # category Package
 # catalog-ctan /macros/latex/contrib/protocol
-# catalog-date 2011-10-13 09:47:13 +0200
+# catalog-date 2012-03-03 18:35:38 +0100
 # catalog-license lppl1.3
-# catalog-version 1.12
+# catalog-version 1.13
 Name:		texlive-protocol
-Version:	1.12
-Release:	2
-Summary:	A class for typesetting minutes of meetings
+Version:	1.13
+Release:	1
+Summary:	A class for minutes of meetings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/protocol
 License:	LPPL1.3
@@ -20,9 +20,10 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The present version of the package is useful for German
-documents; the author has ambitions to internationalise the
-code, and would welcome support in the work.
+The present version of the class supports German meeting
+minutes including vote results and action items. The author has
+ambitions to internationalise the code, and would welcome
+support in the work.
 
 %post
     %{_sbindir}/texlive.post
