@@ -1,6 +1,6 @@
 Name:		texlive-protocol
 Version:	25562
-Release:	1
+Release:	2
 Summary:	A class for minutes of meetings
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/protocol
