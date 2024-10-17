@@ -3,7 +3,7 @@ Version:	25562
 Release:	2
 Summary:	A class for minutes of meetings
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/protocol
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/protocol
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/protocol.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/protocol.doc.r%{version}.tar.xz
